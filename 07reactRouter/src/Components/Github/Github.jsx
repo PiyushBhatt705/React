@@ -11,7 +11,7 @@ function Github(){
         })
     }, [])
     return(
-        <div className="text-3xl bg-gray-600 p-4 text-center text-white ">Github Followers: {data.followers}</div>
+        <div className="text-3xl bg-gray-600 p-4 text-center text-white ">Github Followers: 10 {data.followers}</div>
     )
 }
 
