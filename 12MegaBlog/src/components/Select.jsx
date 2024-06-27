@@ -11,8 +11,7 @@ function Select({
     return (
         <div className='w-full'>
             {label && <label htmlFor={id}></label>}
-            <select
-            {...props}
+            <Select {...props}
             id = {id}
             ref ={ref}
             className={`px-3 py-2 rounded-lg bg-white text-black outline-none focous:bg-gray-50 duration-200 border border-gray-200 w-full ${className}`} >
@@ -21,7 +20,7 @@ function Select({
                         {option}
                     </option>
                 ))}
-            </select>
+            </Select>
         </div>
     )
 }
